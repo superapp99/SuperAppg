@@ -9,14 +9,14 @@ import * as XLSX from "xlsx";
 // 2. Buat project baru → Tambah app web → Salin config di bawah
 // 3. Aktifkan Realtime Database → mulai dalam test mode
 // 4. Aktifkan Authentication → Google Sign-In
-const FIREBASE_CONFIG = {
-  apiKey: "AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  authDomain: "your-project.firebaseapp.com",
-  databaseURL: "https://your-project-default-rtdb.firebaseio.com",
-  projectId: "your-project",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "000000000000",
-  appId: "1:000000000000:web:xxxxxxxxxxxxxxxxxxxxxxxx",
+const firebaseConfig = {
+  apiKey: "AIzaSyC_4QCHA7Yn6IYTVI7fS2_Pjg2vGigDSsE",
+  authDomain: "super-435de.firebaseapp.com",
+  projectId: "super-435de",
+  storageBucket: "super-435de.firebasestorage.app",
+  messagingSenderId: "46734612212",
+  appId: "1:46734612212:web:8e7eede5f9b6e4117f70a1",
+  measurementId: "G-64PLBRN12B"
 };
 const FIREBASE_CONFIGURED = !FIREBASE_CONFIG.apiKey.includes("XXXXX");
 
